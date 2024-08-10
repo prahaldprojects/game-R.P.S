@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background-color: #f1f1f1;
+    align-items: center;
+
+}
+p{
+    background-color: #03346e;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+
+
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    font: bold;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+
+}
+button{
+    padding: 20px;
+    margin:  0 10px;
+    font-size: 3rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 6px 10px;
+    border-radius: 50px;
+
+}
+button:hover{
+    background-color: black;
+}
+#user-score{
+    color: rgb(51, 255, 0);
+
+}
+#comp-score{
+    color: red;
+}
+#result{
+    margin-bottom: 500px;
+}
+
+/* Existing CSS rules here */
+
+@media (max-width: 768px) {
+    p {
+        font-size: 24px;
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .btns {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+    button {
+        padding: 15px;
+        margin: 0 5px;
+        font-size: 2.5rem;
+    }
+    #result{
+        margin-bottom: 500px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    p {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .btns {
+        margin-top: 15px;
+        margin: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    button {
+        padding: 0px;
+        margin: 4 2px;
+        font-size: 3rem;
+    }
+    #result{
+        margin-bottom: 500px;
+    }
+}
